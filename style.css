@@ -1,0 +1,96 @@
+.flex-container {
+    display: flex;
+    background-color: rgb(252, 253, 253);
+  }
+  
+  .flex-container > div {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(252, 253, 253);
+  }
+  
+  .description > div {
+    background-color: #ffffff;
+    width: 100px;
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .flex-show {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(251, 253, 255);
+
+  }
+  .flex-show > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .button {
+    background-color: rgb(78, 149, 216); 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(246, 250, 252);
+    }
+    .flex-container {
+        display: flex;
+        background-color: rgb(252, 253, 253);
+        flex-direction: column;
+      }
+      
+      .flex-container > div {
+        background-color: #ffffff;
+        margin: 10px;
+        padding: 20px;
+        font-size: 10px;
+      }
+
+      .description {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(252, 253, 253);
+      }
+      
+      .description > div {
+        background-color: #ffffff;
+        width: 100px;
+        margin: 10px;
+        text-align: left;
+        line-height: 75px;
+        font-size: 15px;
+      }
+      .flex-show {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(251, 253, 255);
+    
+      }
+      .flex-show > div {
+        background-color: #f1f1f1;
+        margin: 10px;
+        padding: 20px;
+        font-size: 15px;
+      }
+  }
